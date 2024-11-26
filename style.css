@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.todo{
+    width: auto;
+    /* margin: 10rem auto auto auto; */
+    /* padding: 1rem 1rem 3rem 1rem; */
+}
+
+
+.todo .todo-list-search .search-input,.search-button{
+    height: 50px;
+    border-radius: 0%;
+}
+.todo .todo-list-search .btn-danger{
+    background-color: #c34a36;
+}
+
+.todo .todo-list-search .btn-danger:hover{
+    background-color: rgb(37, 9, 4);
+    color: white !important;
+}
+
+.todo .search-input{
+    outline: none;
+    border: 0.1px solid black !important;
+}
+
+.todo .todo-list ul li{
+    text-transform: capitalize;
+    list-style-type: lower-roman !important;
+}
+
+.todo .todo-list ul li span{
+    width: 85%;
+    /* border: 2px solid red; */
+    float: left;
+    height: 50px !important;
+}
+
+.todo .todo-list ul li .btn{
+    width: 15%;
+    float: right;
+    font-size: small;
+    border-radius: 0%;
+    height: 50px !important;
+}
